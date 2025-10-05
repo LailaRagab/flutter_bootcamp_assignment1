@@ -9,19 +9,16 @@ class ViewBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 20),
+      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
       child: Container(
         width: 350,
-        height: 600,
+        height: 700,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(30),
           gradient: LinearGradient(
             begin: Alignment.topRight,
             end: Alignment.bottomLeft,
-            colors: [
-              AppColors.whatIsFlutterScreenBgStart,
-              AppColors.whatIsFlutterScreenBgEnd,
-            ],
+            colors: [AppColors.primary, AppColors.whatIsFlutterScreenBgEnd],
           ),
         ),
         child: ViewBodyContent(),

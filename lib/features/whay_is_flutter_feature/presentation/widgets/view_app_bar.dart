@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bootcamp_assignment1/core/utils/assets/app_images.dart';
 import 'package:flutter_bootcamp_assignment1/core/utils/assets/app_styles.dart';
+import '../../../../core/shared_widgets/custom_text.dart';
 import '../../../../core/utils/assets/app_colors.dart';
 
 class ViewAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -8,13 +9,16 @@ class ViewAppBar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AppBar(
-      leading: Image.asset(AppImages.whatIsFlutterScreenAppBarLogo),
-      title: Text(
-        "Easy Learn Academy",
-        style: AppStyles.whatIsFlutterViewAppBarTitle,
+    return Padding(
+      padding: const EdgeInsets.only(top: 10, left: 20),
+      child: AppBar(
+        leading: Image.asset(AppImages.whatIsFlutterScreenAppBarLogo),
+        title: CustomText(
+          text: "Easy Learn Academy",
+          style: AppStyles.whatIsFlutterViewAppBarTitle,
+        ),
+        backgroundColor: AppColors.black,
       ),
-      backgroundColor: AppColors.whatIsFlutterScreenBgColor,
     );
   }
 

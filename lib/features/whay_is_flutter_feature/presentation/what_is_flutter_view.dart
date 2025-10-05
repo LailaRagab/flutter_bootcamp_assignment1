@@ -13,7 +13,7 @@ class WhatIsFlutterView extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: ViewAppBar(),
-        backgroundColor: AppColors.whatIsFlutterScreenBgColor,
+        backgroundColor: AppColors.black,
         body: ViewBody(),
         bottomNavigationBar: ViewBottomNavigationBar(),
       ),
