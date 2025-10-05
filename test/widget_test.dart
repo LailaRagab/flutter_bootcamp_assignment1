@@ -13,7 +13,7 @@ import 'package:flutter_bootcamp_assignment1/main.dart';
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+    await tester.pumpWidget(const FlutterBootcampAssignment1());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
