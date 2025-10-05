@@ -15,7 +15,7 @@ class ViewAppBar extends StatelessWidget implements PreferredSizeWidget {
         leading: Image.asset(AppImages.whatIsFlutterScreenAppBarLogo),
         title: CustomText(
           text: "Easy Learn Academy",
-          style: AppStyles.whatIsFlutterViewAppBarTitle,
+          style: AppStyles.font24White,
         ),
         backgroundColor: AppColors.black,
       ),

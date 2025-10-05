@@ -14,9 +14,7 @@ class ViewBodyTitleAndTextColumn extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         CustomText(
-          style: AppStyles.whatIsFlutterViewAppBarTitle.copyWith(
-            color: AppColors.black,
-          ),
+          style: AppStyles.font24White.copyWith(color: AppColors.black),
           text: "What is Flutter ?",
         ),
         SizedBox(height: 5),

@@ -14,6 +14,14 @@ class ViewBody extends StatelessWidget {
         width: 350,
         height: 700,
         decoration: BoxDecoration(
+          border: Border.all(color: AppColors.primary, width: 1.5),
+          boxShadow: [
+            BoxShadow(
+              blurRadius: 10,
+              color: AppColors.primary,
+              spreadRadius: 2,
+            ),
+          ],
           borderRadius: BorderRadius.circular(30),
           gradient: LinearGradient(
             begin: Alignment.topRight,

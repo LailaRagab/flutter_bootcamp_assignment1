@@ -6,4 +6,5 @@ class AppImages {
   static const String whatIsFlutterScreenBottomSheatIIcon = "$base/i.jpeg";
   static const String whatIsFlutterScreenBottomSheatFIcon = "$base/f.png";
   static const String whatIsFlutterScreenBottomSheatLIcon = "$base/l.png";
+  static const String me = "$base/img_1.png";
 }

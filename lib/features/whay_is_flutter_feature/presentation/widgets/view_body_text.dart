@@ -12,7 +12,7 @@ class ViewBodyText extends StatelessWidget {
       "graphics engines (Skia) that supports beautiful and responsive designs. Flutter uses widgets to create "
       "reusable UI components with performance close to native apps. it enables fast development with thw Hot Reload feature,"
       "allowing developers to see changes instantly without restarting the app.",
-      style: AppStyles.whatIsFlutterViewBodyText,
+      style: AppStyles.font14Grey,
     );
   }
 }
