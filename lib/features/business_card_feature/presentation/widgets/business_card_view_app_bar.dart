@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bootcamp_assignment1/core/utils/assets/app_colors.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../core/shared_widgets/custom_text.dart';
 import '../../../../core/utils/assets/app_styles.dart';
@@ -13,11 +14,11 @@ class BusinessCardViewAppBar extends StatelessWidget
     return AppBar(
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.only(
-          bottomLeft: Radius.circular(30),
-          bottomRight: Radius.circular(30),
+          bottomLeft: Radius.circular(30.sh),
+          bottomRight: Radius.circular(30.sh),
         ),
       ),
-      toolbarHeight: 70,
+      toolbarHeight: 70.h,
       backgroundColor: AppColors.businessCardAppBarBg,
       centerTitle: true,
       title: CustomText(text: "Business Card", style: AppStyles.font24White),
@@ -26,5 +27,5 @@ class BusinessCardViewAppBar extends StatelessWidget
 
   @override
   // TODO: implement preferredSize
-  Size get preferredSize => Size.fromHeight(70);
+  Size get preferredSize => Size.fromHeight(70.h);
 }

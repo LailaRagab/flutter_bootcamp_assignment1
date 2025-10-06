@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../core/shared_widgets/custom_text.dart';
 import '../../../core/utils/assets/app_colors.dart';
@@ -10,7 +11,7 @@ class FlutterNewsAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      toolbarHeight: 100,
+      toolbarHeight: 100.h,
       backgroundColor: AppColors.flutterNewsViewBg,
       title: Row(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -30,5 +31,5 @@ class FlutterNewsAppBar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   // TODO: implement preferredSize
-  Size get preferredSize => Size.fromHeight(100);
+  Size get preferredSize => Size.fromHeight(100.h);
 }

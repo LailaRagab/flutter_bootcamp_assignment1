@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bootcamp_assignment1/core/shared_widgets/view_body_text.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'custom_text.dart';
 
@@ -22,7 +23,7 @@ class ViewBodyTitleAndTextColumn extends StatelessWidget {
       children: [
         CustomText(style: textStyle, text: text),
 
-        SizedBox(height: 5),
+        SizedBox(height: 5.h),
         ViewBodyText(bodyText: textBody, bodyTextStyle: bodyTextStyle),
       ],
     );

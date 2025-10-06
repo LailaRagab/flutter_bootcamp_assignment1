@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class ContainerRepresentImage extends StatelessWidget {
   const ContainerRepresentImage({
@@ -16,7 +17,7 @@ class ContainerRepresentImage extends StatelessWidget {
       width: w,
       height: h,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(30),
+        borderRadius: BorderRadius.circular(30.sh),
         image: DecorationImage(image: AssetImage(image), fit: BoxFit.cover),
       ),
     );

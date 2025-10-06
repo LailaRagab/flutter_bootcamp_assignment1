@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'business_card_circle_avatar.dart';
 import 'business_card_container.dart';
 
@@ -14,13 +15,13 @@ class BusinessCardViewBody extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             BusinessCardCircleAvatar(),
-            SizedBox(height: 50),
+            SizedBox(height: 50.h),
             BusinessCardContainer(text: 'Call Me Maybe:', icon: Icons.phone),
-            SizedBox(height: 20),
+            SizedBox(height: 20.h),
             BusinessCardContainer(text: 'WhatsApp:', icon: Icons.message),
-            SizedBox(height: 20),
+            SizedBox(height: 20.h),
             BusinessCardContainer(text: 'E-mail:', icon: Icons.email),
-            SizedBox(height: 20),
+            SizedBox(height: 20.h),
             BusinessCardContainer(
               text: 'Instagram:',
               icon: Icons.camera_alt_sharp,

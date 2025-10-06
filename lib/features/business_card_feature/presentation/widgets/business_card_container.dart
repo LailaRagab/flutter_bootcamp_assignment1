@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bootcamp_assignment1/core/utils/assets/app_colors.dart';
 import 'package:flutter_bootcamp_assignment1/features/business_card_feature/presentation/widgets/business_card_text_and_icon_row.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class BusinessCardContainer extends StatelessWidget {
   const BusinessCardContainer({
@@ -14,13 +15,17 @@ class BusinessCardContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      height: 60,
+      height: 60.h,
       decoration: BoxDecoration(
-        border: BoxBorder.all(width: 2, color: AppColors.white),
+        border: BoxBorder.all(width: 2.h, color: AppColors.white),
         boxShadow: [
-          BoxShadow(blurRadius: 1, color: AppColors.white, spreadRadius: 0.1),
+          BoxShadow(
+            blurRadius: 1.h,
+            color: AppColors.white,
+            spreadRadius: 0.1.h,
+          ),
         ],
-        borderRadius: BorderRadius.circular(30),
+        borderRadius: BorderRadius.circular(30.sh),
         gradient: LinearGradient(
           begin: AlignmentGeometry.centerRight,
           end: AlignmentGeometry.centerLeft,
