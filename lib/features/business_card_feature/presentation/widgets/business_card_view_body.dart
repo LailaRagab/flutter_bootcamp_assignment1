@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-
-import '../../../../core/utils/assets/app_styles.dart';
 import 'business_card_circle_avatar.dart';
 import 'business_card_container.dart';
 

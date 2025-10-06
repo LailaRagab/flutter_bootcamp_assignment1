@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'features/business_card_feature/presentation/business_card_view.dart';
-import 'features/whay_is_flutter_feature/presentation/what_is_flutter_view.dart';
+import 'package:flutter_bootcamp_assignment1/features/flutter_news_feature/presentation/flutter_news_view.dart';
 
 void main() {
   runApp(FlutterBootcampAssignment1());
@@ -13,7 +11,7 @@ class FlutterBootcampAssignment1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BusinessCardView(),
+      home: FlutterNewsView(),
     );
   }
 }

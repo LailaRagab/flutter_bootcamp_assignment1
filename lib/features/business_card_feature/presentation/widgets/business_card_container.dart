@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bootcamp_assignment1/core/shared_widgets/custom_text.dart';
 import 'package:flutter_bootcamp_assignment1/core/utils/assets/app_colors.dart';
-import 'package:flutter_bootcamp_assignment1/core/utils/assets/app_styles.dart';
 import 'package:flutter_bootcamp_assignment1/features/business_card_feature/presentation/widgets/business_card_text_and_icon_row.dart';
 
 class BusinessCardContainer extends StatelessWidget {

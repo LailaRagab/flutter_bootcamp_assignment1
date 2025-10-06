@@ -8,4 +8,6 @@ class AppColors {
   static Color black = Color(0XFF000000);
   static Color white = Color(0XFFFFFFFF);
   static Color grey = Color(0XFF7D7D7D);
+  static Color red = Colors.red;
+  static Color flutterNewsViewBg = Color(0XFFB1E2E7);
 }
